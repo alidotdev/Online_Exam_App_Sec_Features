@@ -1,0 +1,6 @@
+C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Task Manager Software\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Task Manager Software\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Task Manager Software\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Task Manager Software\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Task Manager Software\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Task Manager Software\TaskManager\obj\Debug\TaskManager.pdb
