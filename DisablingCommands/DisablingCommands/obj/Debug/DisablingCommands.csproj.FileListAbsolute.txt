@@ -1,0 +1,13 @@
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\bin\Debug\DisablingCommands.exe.config
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\bin\Debug\DisablingCommands.exe
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\bin\Debug\DisablingCommands.pdb
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.csproj.AssemblyReference.cache
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.Form1.resources
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.Properties.Resources.resources
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.csproj.GenerateResource.cache
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.csproj.CoreCompileInputs.cache
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.exe
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.pdb
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\bin\Debug\SharpClipboard.dll
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\bin\Debug\SharpClipboard.xml
+C:\Users\M_Khuzaima\source\repos\DisablingCommands\DisablingCommands\obj\Debug\DisablingCommands.csproj.CopyComplete
