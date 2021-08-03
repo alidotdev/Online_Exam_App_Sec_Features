@@ -34,11 +34,15 @@ namespace DisablingCommands
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
+            MessageBox.Show("I am in processcmd keys");
             Keys[] disabledKeys = new Keys[]
             {
                 Keys.Control | Keys.C,
                 Keys.Control | Keys.X,
+                Keys.Control | Keys.S,
                 Keys.Control | Keys.V,
+                Keys.LWin | Keys.V,
+                Keys.RWin | Keys.V,
                 Keys.Alt | Keys.F4
             };
             if (disabledKeys.Contains(keyData))
@@ -59,7 +63,6 @@ namespace DisablingCommands
             {
                 // Get the cut/copied text.
                richTextBox1.Text += "--\n--" +sharpClipboard1.ClipboardText;
-                
             }
 
             // Is the content copied of image type?
@@ -84,6 +87,17 @@ namespace DisablingCommands
             else if (e.ContentType == SharpClipboard.ContentTypes.Other)
             {
                 // Do something with 'sharpClipboard1.ClipboardObject' or 'e.Content' here...
+            }
+            Clipboard.Clear();
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.LWin)
+            {
+                MessageBox.Show("I am in key press event");
+                e.Handled = true;
+                textBox1.Text += "\n" + e.KeyChar;
             }
         }
 
