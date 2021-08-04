@@ -113,6 +113,7 @@ namespace SpikoDesktop
             this.table.HeaderBgColor = System.Drawing.Color.Empty;
             this.table.HeaderForeColor = System.Drawing.Color.White;
             this.table.Location = new System.Drawing.Point(0, 85);
+            this.table.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.table.Name = "table";
             this.table.ReadOnly = true;
             this.table.RowHeadersVisible = false;
@@ -123,6 +124,7 @@ namespace SpikoDesktop
             this.table.Size = new System.Drawing.Size(800, 365);
             this.table.TabIndex = 1;
             this.table.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            this.table.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.table_CellContentClick);
             // 
             // bunifuPanel1
             // 
@@ -135,6 +137,7 @@ namespace SpikoDesktop
             this.bunifuPanel1.Controls.Add(this.label1);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(800, 85);
@@ -144,11 +147,12 @@ namespace SpikoDesktop
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(377, 34);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(303, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(184, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Opened Tasks";
             // 
             // bunifuPanel2
             // 
@@ -160,10 +164,11 @@ namespace SpikoDesktop
             this.bunifuPanel2.BorderThickness = 1;
             this.bunifuPanel2.Controls.Add(this.bunifuButton1);
             this.bunifuPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.bunifuPanel2.Location = new System.Drawing.Point(0, 410);
+            this.bunifuPanel2.Location = new System.Drawing.Point(0, 411);
+            this.bunifuPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuPanel2.Name = "bunifuPanel2";
             this.bunifuPanel2.ShowBorders = true;
-            this.bunifuPanel2.Size = new System.Drawing.Size(800, 40);
+            this.bunifuPanel2.Size = new System.Drawing.Size(800, 39);
             this.bunifuPanel2.TabIndex = 3;
             // 
             // bunifuButton1
@@ -181,7 +186,7 @@ namespace SpikoDesktop
             this.bunifuButton1.BackColor1 = System.Drawing.Color.DodgerBlue;
             this.bunifuButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.BackgroundImage")));
             this.bunifuButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.bunifuButton1.ButtonText = "bunifuButton1";
+            this.bunifuButton1.ButtonText = "Load Data";
             this.bunifuButton1.ButtonTextMarginLeft = 0;
             this.bunifuButton1.ColorContrastOnClick = 45;
             this.bunifuButton1.ColorContrastOnHover = 45;
@@ -214,7 +219,8 @@ namespace SpikoDesktop
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
-            this.bunifuButton1.Location = new System.Drawing.Point(325, 3);
+            this.bunifuButton1.Location = new System.Drawing.Point(321, 9);
+            this.bunifuButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuButton1.Name = "bunifuButton1";
             this.bunifuButton1.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.OnDisabledState.BorderRadius = 1;
@@ -248,7 +254,7 @@ namespace SpikoDesktop
             this.bunifuButton1.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.OnPressedState.IconLeftImage = null;
             this.bunifuButton1.OnPressedState.IconRightImage = null;
-            this.bunifuButton1.Size = new System.Drawing.Size(150, 28);
+            this.bunifuButton1.Size = new System.Drawing.Size(149, 28);
             this.bunifuButton1.TabIndex = 0;
             this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -295,6 +301,7 @@ namespace SpikoDesktop
             dataGridViewCellStyle4.NullValue = null;
             this.col5.DefaultCellStyle = dataGridViewCellStyle4;
             this.col5.HeaderText = "Screen Shot";
+            this.col5.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.col5.MinimumWidth = 6;
             this.col5.Name = "col5";
             this.col5.ReadOnly = true;
@@ -307,8 +314,10 @@ namespace SpikoDesktop
             this.Controls.Add(this.bunifuPanel2);
             this.Controls.Add(this.table);
             this.Controls.Add(this.bunifuPanel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AdminForm_ST";
             this.Text = "AdminForm_ST";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.table)).EndInit();
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
