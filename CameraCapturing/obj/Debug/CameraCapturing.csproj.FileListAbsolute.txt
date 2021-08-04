@@ -40,6 +40,7 @@ E:\CaptureUser\CameraCapturing\bin\Debug\sv\ZedGraph.resources.dll
 E:\CaptureUser\CameraCapturing\bin\Debug\tr\ZedGraph.resources.dll
 E:\CaptureUser\CameraCapturing\bin\Debug\zh-cn\ZedGraph.resources.dll
 E:\CaptureUser\CameraCapturing\bin\Debug\zh-tw\ZedGraph.resources.dll
+<<<<<<< HEAD
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Desktop-MS-Security\CameraCapturing\bin\Debug\CameraCapturing.exe.config
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Desktop-MS-Security\CameraCapturing\bin\Debug\CameraCapturing.exe
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Desktop-MS-Security\CameraCapturing\bin\Debug\CameraCapturing.pdb
@@ -82,3 +83,47 @@ C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Desktop-MS-Security\CameraCapturi
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.csproj.CopyComplete
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.exe
 C:\Users\Muhammad Ali Murtaza\OneDrive\Desktop\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.pdb
+=======
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\CameraCapturing.exe.config
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\CameraCapturing.exe
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\CameraCapturing.pdb
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\AForge.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\AForge.Video.DirectShow.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\AForge.Video.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\Emgu.CV.UI.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\Emgu.CV.UI.GL.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\Emgu.CV.World.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\OpenTK.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\OpenTK.GLControl.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\ZedGraph.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\AForge.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\AForge.Video.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\AForge.Video.DirectShow.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\Emgu.CV.UI.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\Emgu.CV.UI.GL.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\Emgu.CV.World.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\OpenTK.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\OpenTK.GLControl.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\ZedGraph.xml
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\de\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\es\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\fr\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\hu\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\it\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\ja\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\pt\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\ru\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\sk\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\sv\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\tr\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.csproj.AssemblyReference.cache
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.Form1.resources
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.Properties.Resources.resources
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.csproj.GenerateResource.cache
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.csproj.CoreCompileInputs.cache
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.csproj.CopyComplete
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.exe
+E:\mk\Internship\GitHub Repository\Desktop-MS-Security\CameraCapturing\obj\Debug\CameraCapturing.pdb
+>>>>>>> bf87609059540fcb52cb7a81a96860c0c0240589

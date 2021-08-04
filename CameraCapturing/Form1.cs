@@ -18,9 +18,13 @@ namespace CameraCapturing
 {
     public partial class Form1 : Form
     {
+<<<<<<< HEAD
         static Process[] previous = null;
         static string file = "Data.csv";
         static string screen = "Screen.png";
+=======
+        Image img = null;
+>>>>>>> bf87609059540fcb52cb7a81a96860c0c0240589
         public Form1()
         {
             InitializeComponent();
@@ -177,6 +181,7 @@ namespace CameraCapturing
         static Bitmap img1 = null;
         private void videoCaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
+<<<<<<< HEAD
             //MessageBox.Show("I ma in btn_Click event");
             img = (Bitmap)eventArgs.Frame.Clone();
             img1 = img;
@@ -184,6 +189,13 @@ namespace CameraCapturing
             //img = (Bitmap)pic.Image;
             //img = pic.Image;
             //img = (Bitmap)eventArgs.Frame.Clone();
+=======
+            eventArgs1 = eventArgs;
+
+            //pic.Image = (Bitmap)eventArgs.Frame.Clone();
+            img = (Bitmap)eventArgs.Frame.Clone();
+            pic.Image = img;
+>>>>>>> bf87609059540fcb52cb7a81a96860c0c0240589
             
         }
 
@@ -210,12 +222,17 @@ namespace CameraCapturing
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
         }
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             Filing();
+=======
+            //pictureBox1.Image = pic.Image;
+            pictureBox1.Image = img;
+>>>>>>> bf87609059540fcb52cb7a81a96860c0c0240589
         }
     }
 }
