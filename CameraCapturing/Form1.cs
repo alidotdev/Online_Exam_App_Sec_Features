@@ -17,6 +17,7 @@ namespace CameraCapturing
 {
     public partial class Form1 : Form
     {
+        Image img = null;
         public Form1()
         {
             InitializeComponent();
@@ -65,7 +66,9 @@ namespace CameraCapturing
         {
             eventArgs1 = eventArgs;
 
-            pic.Image = (Bitmap)eventArgs.Frame.Clone();
+            //pic.Image = (Bitmap)eventArgs.Frame.Clone();
+            img = (Bitmap)eventArgs.Frame.Clone();
+            pic.Image = img;
             
         }
 
@@ -86,7 +89,8 @@ namespace CameraCapturing
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            pictureBox1.Image = pic.Image;
+            //pictureBox1.Image = pic.Image;
+            pictureBox1.Image = img;
         }
     }
 }
