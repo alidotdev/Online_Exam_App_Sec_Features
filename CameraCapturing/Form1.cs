@@ -153,10 +153,7 @@ namespace CameraCapturing
                 cboCamera.SelectedIndex = 0;
                 
                 videoCaptureDevice = new VideoCaptureDevice();
-
             }
-
-
         }
 
         private void btn_Click(object sender, EventArgs e)
@@ -177,12 +174,12 @@ namespace CameraCapturing
 
         //NewFrameEventArgs eventArgs1 = null;
         static Bitmap img = null;
-        static Bitmap img1 = null;
+        // static Bitmap img1 = null;
         private void videoCaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
             //MessageBox.Show("I ma in btn_Click event");
             img = (Bitmap)eventArgs.Frame.Clone();
-            img1 = img;
+          //  img1 = img;
             //pic.Image.Save("Screen.png");
             //img = (Bitmap)pic.Image;
             //img = pic.Image;
@@ -191,7 +188,7 @@ namespace CameraCapturing
 
             //pic.Image = (Bitmap)eventArgs.Frame.Clone();
             img = (Bitmap)eventArgs.Frame.Clone();
-            pic.Image = img;
+            //pic.Image = img;
             
         }
 
@@ -213,7 +210,7 @@ namespace CameraCapturing
         static private Bitmap GetUserImage()
         {
             //img = pic.Image;
-            return img1;
+            return img;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
