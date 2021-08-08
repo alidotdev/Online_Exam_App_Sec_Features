@@ -58,19 +58,5 @@ namespace checkingSleepState
                 button1.PerformClick();
             }
         }
-        Image online = Image.FromFile(@"online.jpg");
-        Image offline = Image.FromFile(@"offline.png");
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            pictureBox1.Image = (InternetCS.IsConnectedToInternet()) ? online : offline;
-            MessageBox.Show("" + InternetCS.IsConnectedToInternet());
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            pictureBox1.Image = InternetCS.IsConnectedToInternet() ? online : offline;
-
-        }
     }
 }
