@@ -223,5 +223,10 @@ namespace CameraCapturing
             Filing();
             //pictureBox1.Image = img;
         }
+
+        private void cboCamera_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
